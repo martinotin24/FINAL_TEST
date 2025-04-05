@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Digital Party Planner</h1>
-    <form action="/party_planner.py" method="get">
+    <form action="/cgi-bin/party_planner.py" method="get">
         <p>Select the party items:</p>
         <input type="checkbox" name="items" value="0"> Cake<br>
         <input type="checkbox" name="items" value="1"> Balloons<br>
@@ -27,4 +27,3 @@
     </form>
 </body>
 </html>
-
